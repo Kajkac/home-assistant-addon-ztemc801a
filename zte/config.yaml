@@ -1,8 +1,8 @@
-name: My Add-on
+name: Public IP Address
 version: "1.0.0"
-slug: my-addon
-description: My Add-on
-url: "https://github.com/my-addon/my-addon"
+slug: public-ip-address
+description: Displays the public IP address as a sensor in Home Assistant
+url: "https://github.com/my-addon/public-ip-address"
 arch:
   - armhf
   - armv7
@@ -12,8 +12,4 @@ arch:
 init: false
 map:
   - share:rw
-options:
-  message: "Hello world..."
-schema:
-  message: "str?"
-image: "ghcr.io/my-addon/{arch}-my-addon"
+image: "ghcr.io/my-addon/{arch}-public-ip-address"
