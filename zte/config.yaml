@@ -2,7 +2,7 @@ name: Public IP Address
 version: "1.0.0"
 slug: public-ip-address
 description: Displays the public IP address as a sensor in Home Assistant
-url: "https://github.com/my-addon/public-ip-address"
+url: "https://github.com/kajkac/home-assistant-addon-ztemc801a/public-ip-address"
 arch:
   - armhf
   - armv7
@@ -12,4 +12,4 @@ arch:
 init: false
 map:
   - share:rw
-image: ghcr.io/kajkac/ha-icantbelieveitsnotvaletudo-{arch}
+image: ghcr.io/kajkac/public-ip-address-{arch}
