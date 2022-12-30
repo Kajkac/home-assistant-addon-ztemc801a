@@ -12,4 +12,4 @@ arch:
 init: false
 map:
   - share:rw
-image: "ghcr.io/my-addon/{arch}-public-ip-address"
+image: "ghcr.io/Kajkac/{arch}-public-ip-address"
