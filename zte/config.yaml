@@ -12,4 +12,4 @@ arch:
 init: false
 map:
   - share:rw
-image: "ghcr.io/kajkac/{arch}-public-ip-address"
+image: ghcr.io/kajkac/ha-icantbelieveitsnotvaletudo-{arch}
