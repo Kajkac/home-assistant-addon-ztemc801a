@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Example Home Assistant add-on repository
-url: 'https://github.com/home-assistant/addons-example'
-maintainer: Awesome Maintainer <awesome@example.com>
+name: Kajkac Home Assistant add-on repository
+url: 'https://github.com/Kajkac/home-assistant-addon-ztemc801a'
+maintainer: Kajkac Maintainer <awesome@example.com>
