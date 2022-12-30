@@ -1,26 +1,19 @@
-name: Current Time
-description: Displays the current time as a sensor in Home Assistant
-dependencies: []
-version: 0.1.0
-url: https://github.com/example/current-time
-logo: https://raw.githubusercontent.com/example/current-time/master/logo.png
-documentation: https://github.com/example/current-time/blob/master/README.md
-issue_tracker: https://github.com/example/current-time/issues
-authors:
-  - name: John Smith
-    email: john@example.com
-architecture: amd64
-type: python
-formats:
-  - zip
-config:
-  type: object
-  properties:
-    name:
-      type: string
-      default: Current Time
-      title: Name
-    show_seconds:
-      type: boolean
-      default: false
-      title: Show seconds
+name: My Add-on
+version: "1.0.0"
+slug: my-addon
+description: My Add-on
+url: "https://github.com/my-addon/my-addon"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+image: "ghcr.io/my-addon/{arch}-my-addon"
