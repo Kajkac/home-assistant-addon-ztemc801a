@@ -1,4 +1,0 @@
-{
-  "name": "Public IP Addon",
-  "description": "Displays the public IP address of the host machine in the Home Assistant frontend"
-}
