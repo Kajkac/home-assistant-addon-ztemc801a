@@ -1,36 +1,26 @@
-{
-  "name": "Current Time",
-  "description": "Displays the current time as a sensor in Home Assistant",
-  "dependencies": [],
-  "version": "0.1.0",
-  "url": "https://github.com/example/current-time",
-  "logo": "https://raw.githubusercontent.com/example/current-time/master/logo.png",
-  "documentation": "https://github.com/example/current-time/blob/master/README.md",
-  "issue_tracker": "https://github.com/example/current-time/issues",
-  "authors": [
-    {
-      "name": "John Smith",
-      "email": "john@example.com"
-    }
-  ],
-  "min_homeassistant_version": "0.96.0",
-  "max_homeassistant_version": "1.0.0",
-  "architecture": "amd64",
-  "type": "python",
-  "formats": ["zip"],
-  "config": {
-    "type": "object",
-    "properties": {
-      "name": {
-        "type": "string",
-        "default": "Current Time",
-        "title": "Name"
-      },
-      "show_seconds": {
-        "type": "boolean",
-        "default": false,
-        "title": "Show seconds"
-      }
-    }
-  }
-}
+name: Current Time
+description: Displays the current time as a sensor in Home Assistant
+dependencies: []
+version: 0.1.0
+url: https://github.com/example/current-time
+logo: https://raw.githubusercontent.com/example/current-time/master/logo.png
+documentation: https://github.com/example/current-time/blob/master/README.md
+issue_tracker: https://github.com/example/current-time/issues
+authors:
+  - name: John Smith
+    email: john@example.com
+architecture: amd64
+type: python
+formats:
+  - zip
+config:
+  type: object
+  properties:
+    name:
+      type: string
+      default: Current Time
+      title: Name
+    show_seconds:
+      type: boolean
+      default: false
+      title: Show seconds
