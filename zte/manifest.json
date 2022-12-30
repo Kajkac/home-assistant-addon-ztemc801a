@@ -1,0 +1,6 @@
+{
+  "name": "Current Time",
+  "description": "Displays the current time as a sensor in Home Assistant",
+  "dependencies": [],
+  "version": "0.1.0"
+}
