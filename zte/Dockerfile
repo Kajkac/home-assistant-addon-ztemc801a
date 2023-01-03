@@ -1,8 +1,8 @@
-FROM python:3.8-slim
+FROM python:3.8-alpine
 
-COPY requirements.txt .
-RUN pip3 install -r requirements.txt
+COPY requirements.txt /tmp/
+RUN pip install -r /tmp/requirements.txt
 
-COPY run.py .
+COPY run.py /
 
-CMD [ "python3", "./run.py" ]
+CMD ["python", "-u", "run.py"]

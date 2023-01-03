@@ -1,6 +1,8 @@
 {
-  "name": "Current Time",
-  "description": "Displays the current time as a sensor in Home Assistant",
+  "name": "My Addon",
+  "id": "my_addon",
+  "version": "1.0.0",
+  "description": "An addon that provides a sensor for the public IP address.",
   "dependencies": [],
-  "version": "0.1.0"
+  "url": "https://github.com/Kajkac/home-assistant-addon-ztemc801a/tree/main/zte"
 }
